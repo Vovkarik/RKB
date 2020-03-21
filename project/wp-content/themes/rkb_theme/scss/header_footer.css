@@ -1,0 +1,40 @@
+.b-header__logo {
+  max-width: 74px;
+  float: left;
+  width: 40%;
+  margin-right: 20px; }
+.b-header__name {
+  float: left;
+  width: 60%;
+  padding-left: 16px;
+  border-left: 2px solid #0099FF;
+  font: 15px "Roboto Condensed", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #333; }
+.b-header__menu {
+  margin-top: 15px; }
+.b-header__item {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 26px;
+  cursor: pointer; }
+  .b-header__item a {
+    font: 16px "Roboto Condensed", sans-serif;
+    color: #333; }
+
+.clearfix {
+  display: block;
+  clear: both;
+  content: ""; }
+
+@media screen and (min-width: 768px) {
+  .b-header__menu {
+    margin-top: 15px; } }
+@media screen and (min-width: 1200px) {
+  .b-header__name {
+    font: 16px "Roboto Condensed", sans-serif; }
+  .b-header__item {
+    margin-right: 30px; } }
+
+/*# sourceMappingURL=header_footer.css.map */
