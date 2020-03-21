@@ -1,0 +1,27 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Component.puml
+
+
+title Диаграмма компонентов системы записи на приём
+
+Container(site, "Интернет-сайт ", "html, css, javascript, bootstrap", "Предоставляет все возможности приложения через интернет-сайт")
+ContainerDb(db, "База данных", "SQLLite", "Хранит информацию о сделанных записях и данных клиентов.")
+System_Ext(SMS, "Аутентификация через SMS", "Уведомляет пользователя через сообщение о совершенной брони")
+
+Container_Boundary(appointment_sys, "Система записи на приём") {
+    Component(sign, "Контроллер аутентификации", "С#, ASP.NET MVC", "Позволяет пользователю аутентифицироваться в системе")
+    Component(appointment, "Контроллер записи на приём", "С#, ASP.NET MVC", "Позволяет осуществлять запись на приём с выбором врача,даты и времени и заполнения личных данных")
+    Component(CRM, "Контроллер просмотра активных записей ", "С#, ASP.NET MVC", "Provides functionality related to singing in, changing passwords, etc.")
+    Rel(sign, SMS, "Используя")
+    Rel(appointment, db, "Читает и пишет", "SQL")
+    Rel(appointment, SMS, "Формирует сообщение")
+}
+
+Rel(site, sign, "Используя", "JSON/HTTPS")
+Rel(site, appointment, "Используя", "JSON/HTTPS")
+Rel(site, CRM, "Используя", "JSON/HTTPS")
+Rel(CRM, db, "Читая из", "SQL")
+
+@enduml

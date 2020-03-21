@@ -1,0 +1,23 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+
+' LAYOUT_WITH_LEGEND
+
+title System context diagram for medical services organization site
+
+Person(customer, "Пользователь", "Пользователь сайта")
+Person(admin, "Администратор", "Администратор сайта")
+
+System(site, "Интернет приложение медицинской организации", "Позволяет пользователям просмотреть информацию об организации и записаться на приём к врачу")
+System(crm, "Система администрирования записей", "Позволяет администратору просмотреть текущие записи на приём")
+System_Ext(SMS, "Аутентификация пользователя в записи на приём", "Посылает SMS уведомления пользователю")
+
+Rel(customer, site, "Посещает")
+Rel(admin, crm, "Просматривает")
+Rel(admin, site, "Редактирует")
+Rel(site, crm, "Отправляет запись")
+Rel(site, SMS, "Формирует сообщение")
+Rel(SMS, customer, "Отправляет сообщение")
+@enduml

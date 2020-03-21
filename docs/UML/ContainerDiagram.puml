@@ -1,0 +1,27 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+
+title Container diagram for Medical Service Organization Internet Application
+
+Person(customer, Пользователь, "Посетитель/Клиент")
+Person(admin, Администратор, "Администратор")
+
+System_Boundary(c1, "Интернет-приложение медицинской организации") {
+    Container(appointment_sys, "Система записи на приём", "C#, ASP.NET", "Позволяет клиенту заведения сделать запись")
+    Container(site, "Сайт", "HTML, CSS, JavaScript, Bootstrap", "Предоставляет пользователю все функциональные возможности приложения через сайт")
+    ContainerDb(database, "База Данных", "SQLLite", "Тут хранится информация о сделанных записях и данных пользователей")
+    Container(backend_api, "API Приложения", "C#", "Организуется связь с базой данных")
+}
+
+Rel(customer, appointment_sys, "Используя", "HTTPS")
+Rel(customer, site, "Используя", "HTTPS")
+Rel(admin, site, "Редактирует", "CMS")
+Rel(admin, appointment_sys, "Просматривает записи", "CRM")
+
+Rel_Neighbor(site, appointment_sys, "Предоставляет")
+Rel(appointment_sys, backend_api, "Используя", "async, JSON/HTTPS")
+Rel_Back_Neighbor(database, backend_api, "Читает и записывает", "sync, Entity Framework")
+
+@enduml
