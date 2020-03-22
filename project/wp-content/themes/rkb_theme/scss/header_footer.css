@@ -13,28 +13,86 @@
   padding-bottom: 10px;
   color: #333; }
 .b-header__menu {
-  margin-top: 15px; }
+  margin-top: 10px; }
 .b-header__item {
   display: inline-block;
   list-style-type: none;
   margin-right: 26px;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 13px;
+  line-height: 20px; }
+  .b-header__item:first-child {
+    margin-top: 6px; }
   .b-header__item a {
     font: 16px "Roboto Condensed", sans-serif;
     color: #333; }
+.b-header__burger {
+  margin-top: 30px; }
+
+.b-footer {
+  margin-top: 80px; }
+  .b-footer__border-blue {
+    border-top: 1px solid #0099FF;
+    padding-top: 40px; }
+  .b-footer__text {
+    font: 16px "Roboto Condensed", sans-serif;
+    color: #333;
+    margin-top: 15px; }
+  .b-footer__menu {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 30px; }
+    .b-footer__menu__item {
+      display: inline-block; }
+      .b-footer__menu__item:first-child .b-footer__submenu {
+        padding-left: 0; }
+  .b-footer__submenu {
+    list-style-type: none;
+    padding-left: 27px; }
+    .b-footer__submenu__header {
+      margin-bottom: 9px; }
+      .b-footer__submenu__header a {
+        font: 16px "Roboto Condensed", sans-serif;
+        color: #333; }
 
 .clearfix {
   display: block;
   clear: both;
   content: ""; }
 
+@media screen and (min-width: 575px) {
+  .b-header__burger {
+    margin-top: 6px; } }
+@media screen and (min-width: 0) and (max-width: 392px) {
+  .b-footer__menu__item:last-child {
+    display: block; }
+    .b-footer__menu__item:last-child .b-footer__submenu {
+      padding-left: 0;
+      margin-top: 20px; } }
+@media screen and (min-width: 0) and (max-width: 768px) {
+  .navbar {
+    padding: 0; } }
 @media screen and (min-width: 768px) {
-  .b-header__menu {
-    margin-top: 15px; } }
+  .b-header__item {
+    margin-bottom: 0; }
+    .b-header__item:first-child {
+      margin-top: 0; }
+
+  .b-footer__menu {
+    margin-top: 0; }
+    .b-footer__menu__item:first-child .b-footer__submenu {
+      padding-left: 27px; } }
+@media screen and (min-width: 992px) {
+  .b-footer__submenu {
+    padding-left: 55px; }
+  .b-footer__menu__item:first-child .b-footer__submenu {
+    padding-left: 55px; } }
 @media screen and (min-width: 1200px) {
   .b-header__name {
     font: 16px "Roboto Condensed", sans-serif; }
   .b-header__item {
-    margin-right: 30px; } }
+    margin-right: 40px; }
+  .b-header__menu {
+    margin-left: 40px; } }
 
 /*# sourceMappingURL=header_footer.css.map */

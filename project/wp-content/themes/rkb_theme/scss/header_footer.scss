@@ -24,7 +24,7 @@
 
   &__menu
   {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   &__item
@@ -33,6 +33,13 @@
     list-style-type: none;
     margin-right: 26px;
     cursor: pointer;
+    margin-bottom: 13px;
+    line-height: 20px;
+
+    &:first-child
+    {
+      margin-top: 6px;
+    }
 
     a
     {
@@ -40,7 +47,68 @@
       color: $dark_color;
     }
   }
+
+  &__burger
+  {
+    margin-top: 30px;
+  }
 }
+
+.b-footer
+{
+  margin-top: 80px;
+
+  &__border-blue
+  {
+    border-top: 1px solid $blue_color;
+    padding-top: 40px;
+  }
+
+  &__text
+  {
+    font: 16px $robotoCondensed;
+    color: $dark_color;
+    margin-top: 15px;
+  }
+
+  &__menu
+  {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 30px;
+
+    &__item
+    {
+      display: inline-block;
+
+      &:first-child
+      {
+        .b-footer__submenu
+        {
+            padding-left: 0;
+        }
+      }
+    }
+  }
+
+  &__submenu
+  {
+    list-style-type: none;
+    padding-left: 27px;
+
+    &__header
+    {
+      margin-bottom: 9px;
+
+      a
+      {
+        font: 16px $robotoCondensed;
+        color: $dark_color;
+      }
+    }
+  }
+}
+
 
 .clearfix
 {
@@ -49,13 +117,101 @@
   content: "";
 }
 
+@media screen and (min-width: 575px)
+{
+  .b-header
+  {
+    &__burger
+    {
+      margin-top: 6px;
+    }
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 392px)
+{
+  .b-footer
+  {
+    &__menu__item
+    {
+      &:last-child
+      {
+        display: block;
+
+        .b-footer__submenu
+        {
+          padding-left: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px)
+{
+  .navbar
+  {
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 768px)
 {
   .b-header
   {
+    &__item
+    {
+      margin-bottom: 0;
+
+      &:first-child
+      {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .b-footer
+  {
     &__menu
     {
-      margin-top: 15px;
+      margin-top: 0;
+
+      &__item
+      {
+        &:first-child
+        {
+          .b-footer__submenu
+          {
+            padding-left: 27px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  .b-footer
+  {
+    &__submenu
+    {
+      padding-left: 55px;
+    }
+
+    &__menu
+    {
+      &__item
+      {
+        &:first-child
+        {
+          .b-footer__submenu
+          {
+            padding-left: 55px;
+          }
+        }
+      }
     }
   }
 }
@@ -71,7 +227,12 @@
 
     &__item
     {
-      margin-right: 30px;
+      margin-right: 40px;
+    }
+
+    &__menu
+    {
+      margin-left: 40px;
     }
   }
 }
