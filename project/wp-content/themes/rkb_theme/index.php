@@ -17,43 +17,43 @@
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
             <a class="b-departments__link" href="/departments"></a>
-            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/example-department.jpg">
+            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-1.png">
             <p class="b-departments__title">Кардиология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
             <a class="b-departments__link" href="/departments"></a>
-            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/example-department.jpg">
-            <p class="b-departments__title">Кардиология</p>
+            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-2.png">
+            <p class="b-departments__title">Пульмонология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
             <a class="b-departments__link" href="/departments"></a>
-            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/example-department.jpg">
-            <p class="b-departments__title">Кардиология</p>
+            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-3.png">
+            <p class="b-departments__title">Неврология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
             <a class="b-departments__link" href="/departments"></a>
-            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/example-department.jpg">
-            <p class="b-departments__title">Кардиология</p>
+            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-4.png">
+            <p class="b-departments__title">Травматология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
             <a class="b-departments__link" href="/departments"></a>
-            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/example-department.jpg">
-            <p class="b-departments__title">Кардиология</p>
+            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-5.png">
+            <p class="b-departments__title">Хирургия</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
             <a class="b-departments__link" href="/departments"></a>
-            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/example-department.jpg">
-            <p class="b-departments__title">Кардиология</p>
+            <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-6.png">
+            <p class="b-departments__title">Терапия</p>
           </div>
         </div>
       </div>
