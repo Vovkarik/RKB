@@ -22,4 +22,61 @@
     max-width: 1000px;
     text-align: justify;
   }
+
+  &__image
+  {
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+}
+
+.b-department
+{
+  &-margin
+  {
+    margin-top: 20px;
+  }
+
+  &__container
+  {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  &__list
+  {
+    list-style: none;
+    margin-left: 19px;
+  }
+
+  &__item
+  {
+    margin-bottom: 10px;
+
+    a
+    {
+      color: $dark_color;
+      font: 18px $openSans;
+
+      &:hover,
+      &:focus,
+      &:active
+      {
+        color: $dark_color;
+      }
+    }
+
+    &::before
+    {
+      content: "";
+      background-color: $blue_color;
+      font-weight: bold;
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      margin-left: -1em;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  }
 }

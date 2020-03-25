@@ -10,5 +10,34 @@
   font: 14px/1.5 "Open Sans", sans-serif;
   max-width: 1000px;
   text-align: justify; }
+.b-history__image {
+  margin-bottom: 20px;
+  border-radius: 6px; }
+
+.b-department-margin {
+  margin-top: 20px; }
+.b-department__container {
+  margin-top: 40px;
+  margin-bottom: 30px; }
+.b-department__list {
+  list-style: none;
+  margin-left: 19px; }
+.b-department__item {
+  margin-bottom: 10px; }
+  .b-department__item a {
+    color: #333;
+    font: 18px "Open Sans", sans-serif; }
+    .b-department__item a:hover, .b-department__item a:focus, .b-department__item a:active {
+      color: #333; }
+  .b-department__item::before {
+    content: "";
+    background-color: #0099FF;
+    font-weight: bold;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-left: -1em;
+    border-radius: 50%;
+    margin-right: 15px; }
 
 /*# sourceMappingURL=history.css.map */

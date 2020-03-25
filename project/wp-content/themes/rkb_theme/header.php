@@ -43,14 +43,14 @@
                       <a class="dropdown-item" href="#">Лицензии</a>
                       <a class="dropdown-item" href="#">Документы</a>
                       <a class="dropdown-item" href="#">Научная деятельность</a>
-                      <a class="dropdown-item" href="#">История</a>
+                      <a class="dropdown-item" href="/history">История</a>
                     </div>
                   </li>
                   <li class="nav-item b-header__item">
                     <a href="/departments">Отделения</a>
                   </li>
                   <li class="nav-item b-header__item">
-                    <a href="/price">Платные услуги</a>
+                    <a href="http://localhost/wp-content/uploads/2020/03/Прейскуран.xls">Платные услуги</a>
                   </li>
                   <li class="nav-item b-header__item">
                     <a href="/news">Новости</a>
