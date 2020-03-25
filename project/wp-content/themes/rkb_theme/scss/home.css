@@ -1,20 +1,18 @@
-.b-slider {
-  margin-top: 20px; }
-  .b-slider .slick-dots {
-    bottom: -35px; }
-    .b-slider .slick-dots .slick-active button {
-      background-color: #0099FF;
-      width: 15px;
-      height: 15px; }
-    .b-slider .slick-dots button {
-      background-color: #555;
-      border-radius: 50%;
-      width: 12px;
-      height: 12px; }
-      .b-slider .slick-dots button:before {
-        content: none; }
-      .b-slider .slick-dots button:hover {
-        background-color: #0099FF; }
+.b-slider .slick-dots {
+  bottom: -35px; }
+  .b-slider .slick-dots .slick-active button {
+    background-color: #0099FF;
+    width: 15px;
+    height: 15px; }
+  .b-slider .slick-dots button {
+    background-color: #555;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px; }
+    .b-slider .slick-dots button:before {
+      content: none; }
+    .b-slider .slick-dots button:hover {
+      background-color: #0099FF; }
 
 .b-title__h2 {
   color: #333;

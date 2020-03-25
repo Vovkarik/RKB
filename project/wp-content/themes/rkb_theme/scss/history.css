@@ -1,0 +1,14 @@
+.b-history__h1 {
+  color: #4B7DBC;
+  font: 36px "Roboto Condensed", sans-serif;
+  margin-bottom: 30px; }
+.b-history__container {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+.b-history__text {
+  color: #333;
+  font: 14px/1.5 "Open Sans", sans-serif;
+  max-width: 1000px;
+  text-align: justify; }
+
+/*# sourceMappingURL=history.css.map */

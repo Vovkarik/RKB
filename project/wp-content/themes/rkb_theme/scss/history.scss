@@ -1,0 +1,25 @@
+@import "config";
+
+.b-history
+{
+  &__h1
+  {
+    color: $blue_color_title;
+    font: 36px $robotoCondensed;
+    margin-bottom: 30px;
+  }
+
+  &__container
+  {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  &__text
+  {
+    color: $dark_color;
+    font: 14px/1.5 $openSans;
+    max-width: 1000px;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIE,cACA;EACE,KAAK,ECJU,OAAO;EDKtB,IAAI,EAAE,mCAAqB;EAC3B,aAAa,EAAE,IAAI;AAGrB,qBACA;EACE,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;AAGrB,gBACA;EACE,KAAK,ECfI,IAAI;EDgBb,IAAI,EAAE,gCAAkB;EACxB,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,OAAO",
+"sources": ["history.scss","config.scss"],
+"names": [],
+"file": "history.css"
+}
