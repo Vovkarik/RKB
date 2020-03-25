@@ -1,0 +1,39 @@
+@startuml Site
+
+
+
+skinparam packageStyle rectangle
+
+actor "Посетитель" as user
+actor "Администратор" as admin
+
+rectangle "СайтСЗаписью" {
+
+    together {
+        
+
+        (Просмотр местоположения организации) as watchGeo
+        (Просмотр услуг организации) as watchServices
+        (Просмотр контактов организации) as watchContacts
+        (Просмотр сертификатов организации) as watchSertificates
+        (Выбор даты и времени записи на приём) as dateChoose
+    }
+
+    together {
+        (Изменение информации об организации) as changeData
+        (Просмотр списка записей) as whatchList
+    }
+
+}
+
+left to right direction
+
+
+user -- watchGeo
+user -- watchServices
+user -- watchContacts
+user -- watchSertificates
+user -- dateChoose
+changeData -- admin
+whatchList-- admin
+@enduml

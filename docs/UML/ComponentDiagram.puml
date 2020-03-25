@@ -6,22 +6,30 @@
 
 title Диаграмма компонентов системы записи на приём
 
-Container(site, "Интернет-сайт ", "html, css, javascript, bootstrap", "Предоставляет все возможности приложения через интернет-сайт")
-ContainerDb(db, "База данных", "SQLLite", "Хранит информацию о сделанных записях и данных клиентов.")
+Container(site, "Интернет приложение медицинской организации", "html, css, javascript, bootstrap", "Предоставляет все возможности приложения через интернет-сайт")
 System_Ext(SMS, "Аутентификация через SMS", "Уведомляет пользователя через сообщение о совершенной брони")
 
-Container_Boundary(appointment_sys, "Система записи на приём") {
+Container_Boundary(appointment_sys, "API Application") {
     Component(sign, "Контроллер аутентификации", "С#, ASP.NET MVC", "Позволяет пользователю аутентифицироваться в системе")
     Component(appointment, "Контроллер записи на приём", "С#, ASP.NET MVC", "Позволяет осуществлять запись на приём с выбором врача,даты и времени и заполнения личных данных")
-    Component(CRM, "Контроллер просмотра активных записей ", "С#, ASP.NET MVC", "Provides functionality related to singing in, changing passwords, etc.")
-    Rel(sign, SMS, "Используя")
-    Rel(appointment, db, "Читает и пишет", "SQL")
-    Rel(appointment, SMS, "Формирует сообщение")
+    Component(CRM, "Контроллер просмотра активных записей ", "С#, ASP.NET MVC", "Предоставляет пользователю функциональность программы, связанную с аутентификацией.")
+    Component(auth_daemon, "Служба аутентификации", "С#, ASP.NET MVC", "Взаимодействует с базой данных")
+    Component(appointment_daemon, "Служба записи", "С#, ASP.NET MVC", "Взаимодействует с базой данных")
+    Component(SMS_adapter, "Адаптер для SMS сервиса", "С#, ASP.NET MVC", "Организует связь с SMS сервисом")
+    Component(SQLite_adapter, "Адаптер для SQLite", "С#, ASP.NET MVC", "Организует связь с БД")
+    ContainerDb(db, "База данных", "SQLite", "Хранит информацию о сделанных записях и данных клиентов.")
+    Rel(auth_daemon, SMS_adapter, "Используя")
+    Rel(appointment_daemon, SQLite_adapter, "Используя")
+    Rel(appointment_daemon, SMS_adapter, "Передает команду")
+    Rel(sign, auth_daemon, "Используя")
+    Rel(appointment, appointment_daemon, "Используя")
+    Rel(CRM, appointment_daemon, "Используя")   
+    Rel(SMS_adapter, SMS, "Формирует сообщение")
+    Rel(SQLite_adapter, db, "Читает и пишет")
 }
 
 Rel(site, sign, "Используя", "JSON/HTTPS")
 Rel(site, appointment, "Используя", "JSON/HTTPS")
 Rel(site, CRM, "Используя", "JSON/HTTPS")
-Rel(CRM, db, "Читая из", "SQL")
 
 @enduml
