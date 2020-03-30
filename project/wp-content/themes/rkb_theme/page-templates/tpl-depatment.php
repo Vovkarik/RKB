@@ -10,9 +10,9 @@
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $departmentsInfo = DepartmentInfo::getTraumatologyInfo();
+    $departmentsInfo = DepartmentInfo::getDepartmentsInfo();
+    $departmentInfo = $departmentsInfo[substr($_SERVER['REQUEST_URI'], 1, -1)];
 ?>
-<? foreach ($departmentsInfo as $departmentName => $departmentInfo): ?>
   <main class="container">
     <div class="b-main__container">
       <h1 class="b-main__h1"><?= $departmentInfo['departmentName'] ?></h1>
@@ -46,6 +46,5 @@
       </div>
     </div>
   </main>
-<? endforeach; ?>
 <?php
     get_footer();
