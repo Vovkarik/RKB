@@ -8,6 +8,7 @@ function rkb_scripts() {
     wp_enqueue_style ('header_footer', get_stylesheet_directory_uri () . STYLE_SRC . '/header_footer.css');
     wp_enqueue_style ('home-css', get_stylesheet_directory_uri () . STYLE_SRC . '/home.css');
     wp_enqueue_style ('history-css', get_stylesheet_directory_uri () . STYLE_SRC . '/history.css');
+    wp_enqueue_style ('department-css', get_stylesheet_directory_uri () . STYLE_SRC . '/department.css');
     wp_enqueue_style ('slick-css', get_stylesheet_directory_uri () . '/lib/slick-1.8.1/slick/slick.css');
     wp_enqueue_style ('slick-theme', get_stylesheet_directory_uri () . '/lib/slick-1.8.1/slick/slick-theme.css');
 

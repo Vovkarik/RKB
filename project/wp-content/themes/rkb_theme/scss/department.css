@@ -1,0 +1,30 @@
+.b-department {
+  margin-bottom: 65px; }
+  .b-department__text {
+    margin-top: 30px; }
+
+.b-specialists {
+  margin-top: 65px; }
+
+.b-specialist {
+  min-height: 310px;
+  margin-bottom: 60px; }
+  .b-specialist__position {
+    font: italic 700 16px/1.1 "Roboto Condensed", sans-serif;
+    color: #333;
+    margin: 10px 0; }
+  .b-specialist__name {
+    font: 700 16px/1.1 "Roboto Condensed", sans-serif;
+    color: #4B7DBC;
+    margin-bottom: 10px; }
+  .b-specialist__description {
+    font: italic 16px/1.1 "Roboto Condensed", sans-serif;
+    color: #333; }
+  .b-specialist__image {
+    margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  .b-department__text {
+    margin-top: 0; } }
+
+/*# sourceMappingURL=department.css.map */

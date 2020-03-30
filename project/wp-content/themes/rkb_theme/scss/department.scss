@@ -1,0 +1,58 @@
+@import "config";
+
+.b-department
+{
+  margin-bottom: 65px;
+
+  &__text
+  {
+    margin-top: 30px;
+  }
+}
+
+.b-specialists
+{
+  margin-top: 65px;
+}
+
+.b-specialist
+{
+  min-height: 310px;
+  margin-bottom: 60px;
+
+  &__position
+  {
+    font: italic 700 16px/1.1 $robotoCondensed;
+    color: $dark_color;
+    margin: 10px 0;
+  }
+
+  &__name
+  {
+    font: 700 16px/1.1 $robotoCondensed;
+    color: $blue_color_title;
+    margin-bottom: 10px;
+  }
+
+  &__description
+  {
+    font: italic 16px/1.1 $robotoCondensed;
+    color: $dark_color;
+  }
+
+  &__image
+  {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .b-department
+  {
+    &__text
+    {
+      margin-top: 0;
+    }
+  }
+}
