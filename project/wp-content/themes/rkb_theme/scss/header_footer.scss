@@ -20,16 +20,17 @@
     margin-right: 20px;
   }
 
+  &__logo-xs
+  {
+    max-width: 74px;
+    float: left;
+    width: 40%;
+    margin-right: 0;
+  }
+
   &__name
   {
-    float: left;
-    width: 60%;
-    padding-left: 16px;
-    border-left: 2px solid $blue_color;
-    font: 15px $robotoCondensed;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: $dark_color;
+    display: none;
   }
 
   &__menu
@@ -41,10 +42,12 @@
   {
     display: inline-block;
     list-style-type: none;
-    margin-right: 26px;
+    margin-right: 23px;
     cursor: pointer;
     margin-bottom: 13px;
     line-height: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px $light_gray_color;
 
     &:first-child
     {
@@ -56,11 +59,6 @@
       font: 16px $robotoCondensed;
       color: $dark_color;
     }
-  }
-
-  &__burger
-  {
-    margin-top: 30px;
   }
 }
 
@@ -135,6 +133,19 @@
     {
       margin-top: 6px;
     }
+
+    &__name
+    {
+      display: block;
+      float: left;
+      width: 60%;
+      padding-left: 16px;
+      border-left: 2px solid $blue_color;
+      font: 15px $robotoCondensed;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: $dark_color;
+    }
   }
 }
 
@@ -173,11 +184,18 @@
     &__item
     {
       margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
 
       &:first-child
       {
         margin-top: 0;
       }
+    }
+
+    &__burger
+    {
+      margin-top: 30px;
     }
   }
 
@@ -242,7 +260,7 @@
 
     &__menu
     {
-      margin-left: 40px;
+      margin-left: 20px;
     }
   }
 }

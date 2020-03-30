@@ -1,3 +1,13 @@
+.b-slider__header {
+  font: italic 46px/1.5 "Roboto Condensed", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  bottom: 50%; }
+.b-slider__img-wrap {
+  position: relative;
+  background: rgba(0, 0, 0, 0.2); }
 .b-slider .slick-dots {
   bottom: -35px; }
   .b-slider .slick-dots .slick-active button {
