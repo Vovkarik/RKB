@@ -1,6 +1,6 @@
 @import "config";
 
-.b-history
+.b-main
 {
   &__h1
   {
@@ -22,11 +22,47 @@
     max-width: 1000px;
     text-align: justify;
   }
+}
 
+.b-history
+{
   &__image
   {
     margin-bottom: 20px;
     border-radius: 6px;
+  }
+}
+
+.b-executives
+{
+  &__block
+  {
+    margin-bottom: 30px;
+  }
+
+  &__position
+  {
+    color: $dark_color;
+    font: 600 18px/1.5 $openSans;
+    margin-bottom: 10px;
+  }
+
+  &__name
+  {
+    color: $dark_color;
+    font: 24px/1 $robotoCondensed;
+    margin-bottom: 20px;
+  }
+
+  &__description
+  {
+    color: $dark_color;
+    font: 18px/1.5 $openSans;
+  }
+
+  &__image
+  {
+    margin-bottom: 10px;
   }
 }
 
@@ -77,6 +113,17 @@
       margin-left: -1em;
       border-radius: 50%;
       margin-right: 15px;
+    }
+  }
+}
+
+@media (min-width: 768px)
+{
+  .b-executives
+  {
+    &__image
+    {
+      margin-bottom: 10px;
     }
   }
 }

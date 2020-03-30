@@ -17,7 +17,7 @@ the_post();
     <div class="b-header">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-9 col-md-5 col-lg-5 col-xl-5">
+          <div class="col-9 col-sm-9 col-md-5 col-lg-5 col-xl-5 d-none d-md-block">
             <div class="b-header__logo">
               <a href="/">
                 <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/rkb_logo.JPG">
@@ -29,8 +29,15 @@ the_post();
             </div>
             <div class="clearfix"></div>
           </div>
-          <div class="col-12 col-sm-3 col-md-7 col-lg-7 col-xl-7">
+          <div class="col-12 col-md-7 col-lg-7 col-xl-7">
             <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand b-header__logo-xs d-md-none d-lg-none" href="/">
+                <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/rkb_logo.JPG">
+              </a>
+              <div class="b-header__name d-md-none d-lg-none">
+                Республиканская клиническая
+                больница республики Марий Эл
+              </div>
               <button class="b-header__burger navbar-toggler" type="button" data-toggle="collapse"
                       data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                       aria-label="Toggle navigation">
@@ -44,9 +51,9 @@ the_post();
                       О РКБ
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Руководители</a>
-                      <a class="dropdown-item" href="#">Лицензии</a>
-                      <a class="dropdown-item" href="#">Документы</a>
+                      <a class="dropdown-item" href="/executives">Руководители</a>
+                      <a class="dropdown-item" href="http://mari-el.gov.ru/minzdrav/rkb/Pages/license.aspx" target="_blank">Лицензии</a>
+                      <a class="dropdown-item" href="http://mari-el.gov.ru/minzdrav/rkb/Pages/rcb-docs.aspx">Документы</a>
                       <a class="dropdown-item" href="#">Научная деятельность</a>
                       <a class="dropdown-item" href="/history">История</a>
                     </div>
@@ -60,8 +67,15 @@ the_post();
                   <li class="nav-item b-header__item">
                     <a href="/news">Новости</a>
                   </li>
-                  <li class="nav-item b-header__item">
-                    <a href="/contacts">Контакты</a>
+                  <li class="nav-item dropdown b-header__item">
+                    <a class="dropdown-toggle" href="/contacts" id="navbarDropdownContactMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                      Контакты
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownContactMenuLink">
+                      <a class="dropdown-item" href="http://anketa.rosminzdrav.ru/staticogvjustank/54/1" target="_blank">Оценить качество услуг</a>
+                      <a class="dropdown-item" href="http://mari-el.gov.ru/minzdrav/rkb/Pages/feedback.aspx" target="_blank">Оставить отзыв</a>
+                    </div>
                   </li>
                 </ul>
               </div>

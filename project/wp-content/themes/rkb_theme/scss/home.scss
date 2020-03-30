@@ -2,6 +2,22 @@
 
 .b-slider
 {
+  &__header
+  {
+    font: italic 46px/1.5 $robotoCondensed;
+    color: $white_color;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    bottom: 50%;
+  }
+
+  &__img-wrap
+  {
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
   .slick-dots
   {
     bottom: -35px;
