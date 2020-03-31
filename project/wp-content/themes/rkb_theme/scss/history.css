@@ -56,6 +56,9 @@
     margin-left: -1em;
     border-radius: 50%;
     margin-right: 15px; }
+  .b-department__item_special a {
+    color: #4B7DBC;
+    font: 20px "Open Sans", sans-serif; }
 
 @media (min-width: 768px) {
   .b-executives__image {

@@ -114,6 +114,15 @@
       border-radius: 50%;
       margin-right: 15px;
     }
+
+    &_special
+    {
+      a
+      {
+        color: $blue_color_title;
+        font: 20px $openSans;
+      }
+    }
   }
 }
 
