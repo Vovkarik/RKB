@@ -1,0 +1,13 @@
+.b-contact {
+  margin-bottom: 37px; }
+  .b-contact__header {
+    font: 24px/1.1 "Roboto Condensed", sans-serif;
+    color: #333;
+    margin-bottom: 10px; }
+  .b-contact__address {
+    font: 16px/1.1 "Roboto Condensed", sans-serif;
+    color: #333; }
+  .b-contact__border_right {
+    border-right: 1px solid #eee; }
+
+/*# sourceMappingURL=contact.css.map */

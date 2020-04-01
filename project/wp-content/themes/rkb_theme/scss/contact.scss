@@ -1,0 +1,27 @@
+@import "config";
+
+.b-contact
+{
+  margin-bottom: 37px;
+
+  &__header
+  {
+    font: 24px/1.1 $robotoCondensed;
+    color: $dark_color;
+    margin-bottom: 10px;
+  }
+
+  &__address
+  {
+    font: 16px/1.1 $robotoCondensed;
+    color: $dark_color;
+  }
+
+  &__border
+  {
+    &_right
+    {
+      border-right: 1px solid $light_gray_color;
+    }
+  }
+}
