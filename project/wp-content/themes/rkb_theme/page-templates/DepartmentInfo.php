@@ -354,6 +354,405 @@ class DepartmentInfo
                     ]
                 ]
             ],
+            'bacteriological-laboratory' => [
+                'departmentName' => 'Бактериологическая лаборатория',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'bacteriological_laboratory',
+                'specialists' => [
+                    0 => [
+                        'image' => 'zernova',
+                        'name' => 'Зернова Галина Николаевна',
+                        'qualification' => 'Врач бактериолог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'clinical-diagnostic-laboratory' => [
+                'departmentName' => 'Клинико-диагностические лаборатория',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'clinical_diagnostic_laboratory',
+                'specialists' => [
+                    0 => [
+                        'image' => 'ostashenko',
+                        'name' => 'Осташенко Светлана Владимировна',
+                        'qualification' => 'Врач лаборант высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'pathology-department' => [
+                'departmentName' => 'Патологоанатомическое отделение',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'pathology_department',
+                'specialists' => [
+                    0 => [
+                        'image' => 'zuev',
+                        'name' => 'Зуев Артем Юрьевич',
+                        'qualification' => 'Врач патологоанатом высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'zverev',
+                        'name' => 'Зверев Алексей Сергеевич',
+                        'qualification' => 'Врач патологоанатом'
+                    ],
+                    2 => [
+                        'image' => 'novoselov',
+                        'name' => 'Новоселов Николай Юрьевич',
+                        'qualification' => 'Врач патологоанатом высшей квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'ohotnikov',
+                        'name' => 'Охотников Михаил Александрович',
+                        'qualification' => 'Врач патологоанатом второй квалификационной категории'
+                    ]
+                ]
+            ],
+            'reception-office' => [
+                'departmentName' => 'Приемное отделение',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'reception_office',
+                'specialists' => [
+                    0 => [
+                        'image' => 'gabdullin',
+                        'name' => 'Габдуллин Марат Мансурович',
+                        'qualification' => 'Врач травматолог-ортопед первой квалификационной категории'
+                    ]
+                ]
+            ],
+            'radiology' => [
+                'departmentName' => 'Рентгенология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'radiology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'agroskin',
+                        'name' => 'Агроскин Леонид Семенович',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'agapitov',
+                        'name' => 'Агапитов Юрий Владиславович',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'andreeva',
+                        'name' => 'Андреева Алевтина Александровна',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'galkina',
+                        'name' => 'Галкина Анна Альбертовна',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    4 => [
+                        'image' => 'goncharova',
+                        'name' => 'Гончарова Ольга Викторовна',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    5 => [
+                        'image' => 'nikolaev',
+                        'name' => 'Николаев Дмитрий Леонидович',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    6 => [
+                        'image' => 'ovchinnikov',
+                        'name' => 'Овчинников Юрий Алексеевич',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    7 => [
+                        'image' => 'peretyagina',
+                        'name' => 'Перетягина Галина Геннадьевна',
+                        'qualification' => 'Врач рентгенолог высшей квалификационной категории'
+                    ],
+                    8 => [
+                        'image' => 'sadrieva',
+                        'name' => 'Садриева Гульзия Камилевна',
+                        'qualification' => 'Врач рентгенолог второй квалификационной категории'
+                    ]
+                ]
+            ],
+            'functional-diagnostics' => [
+                'departmentName' => 'Функциональная диагностика',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'functional_diagnostics',
+                'specialists' => [
+                    0 => [
+                        'image' => 'kudryashova',
+                        'name' => 'Кудряшова Наталья Александровна',
+                        'qualification' => 'Врач функциональной диагностики высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'horoshaeva',
+                        'name' => 'Хорошаева Надежда Александровна',
+                        'qualification' => 'Врач функциональной диагностики второй квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'snopchenkoes',
+                        'name' => 'Снопченко Екатерина Станиславовна',
+                        'qualification' => 'Врач рентгенолог второй квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'snopchenkoso',
+                        'name' => 'Снопченко Станислав Олегович',
+                        'qualification' => 'Врач ультразвуковой диагностики высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'endoscopy' => [
+                'departmentName' => 'Эндоскопия',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'endoscopy',
+                'specialists' => [
+                    0 => [
+                        'image' => 'rizhkov',
+                        'name' => 'Рыжков Виктор Леонидович',
+                        'qualification' => 'Врач эндоскопист высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'furina',
+                        'name' => 'Фурина Раиса Рустэмовна',
+                        'qualification' => 'Врач эндоскопист высшей квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'ureva',
+                        'name' => 'Юрьева Светлана Николаевна',
+                        'qualification' => 'Врач эндоскопист второй квалификационной категории'
+                    ]
+                ]
+            ],
+            'gastroenterology' => [
+                'departmentName' => 'Гастроэнтерология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'gastroenterology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'sitnov',
+                        'name' => 'Ситнов Андрей Александрович',
+                        'qualification' => 'Врач гастроэнтеролог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'kupriyanova',
+                        'name' => 'Куприянова Нина Александровна',
+                        'qualification' => 'Врач гастроэнтеролог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'hemodialysis' => [
+                'departmentName' => 'Гемодиализ',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'hemodialysis',
+                'specialists' => [
+                    0 => [
+                        'image' => 'rufov',
+                        'name' => 'Руфов Аркадий Николаевич',
+                        'qualification' => 'Врач нефролог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'oraspaev',
+                        'name' => 'Ороспаев Михаил Владимирович',
+                        'qualification' => 'Врач нефролог второй квалификационной категории'
+                    ]
+                ]
+            ],
+            'cardiology' => [
+                'departmentName' => 'Кардиология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'cardiology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'kanisheva',
+                        'name' => 'Канышева Светлана Владимировна',
+                        'qualification' => 'Врач кардиолог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'ardishev',
+                        'name' => 'Ардышев Александр Николаевич',
+                        'qualification' => 'Врач кардиолог первой квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'nikolaeva',
+                        'name' => 'Николаева Татьяна Евгеньевна',
+                        'qualification' => 'Врач кардиолог первой квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'sredina',
+                        'name' => 'Средина Ольга Сергеевна',
+                        'qualification' => 'Врач кардиолог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'neurology' => [
+                'departmentName' => 'Неврология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'neurology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'kazakova',
+                        'name' => 'Казакова Татьяна Александровна',
+                        'qualification' => 'Врач невролог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'naimushin',
+                        'name' => 'Наймушин Виктор Анисифович',
+                        'qualification' => 'Врач кардиолог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'nephrology' => [
+                'departmentName' => 'Нефрология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'nephrology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'orehova',
+                        'name' => 'Орехова Галина Александровна',
+                        'qualification' => 'Врач нефролог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'orospaev',
+                        'name' => 'Ороспаев Михаил Владимирович',
+                        'qualification' => 'Врач нефролог второй квалификационной категории'
+                    ]
+                ]
+            ],
+            'rehabilitation-department' => [
+                'departmentName' => 'Отделение восстановительного лечения',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'rehabilitation_department',
+                'specialists' => [
+                    0 => [
+                        'image' => 'appakova',
+                        'name' => 'Аппакова Светлана Анатольевна',
+                        'qualification' => 'Врач физиотерепевт высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'pulmonology' => [
+                'departmentName' => 'Пульмонология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'pulmonology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'nifaneva',
+                        'name' => 'Нифаньева Татьяна Николаевна',
+                        'qualification' => 'Врач пульмонолог первой квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'krasilnikova',
+                        'name' => 'Красильникова Людмила Владимировна',
+                        'qualification' => 'Врач пульмонолог высшей квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'kurochkina',
+                        'name' => 'Курочкина Галина Михайловна',
+                        'qualification' => 'Врач пульмонолог высшей квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'tihonova',
+                        'name' => 'Тихонова Тамара Алексеевна',
+                        'qualification' => 'Врач пульмонолог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'rheumatology' => [
+                'departmentName' => 'Ревматология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'rheumatology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'pozdeeva',
+                        'name' => 'Поздеева Лариса Михайловна',
+                        'qualification' => 'Врач ревматолог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'glazirina',
+                        'name' => 'Глазырина Светлана Юрьевна',
+                        'qualification' => 'Врач ревматолог'
+                    ],
+                    2 => [
+                        'image' => 'gorbunova',
+                        'name' => 'Горбунова Марина Евгеньевна',
+                        'qualification' => 'Врач ревматолог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'endocrinology' => [
+                'departmentName' => 'Эндокринология',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'endocrinology',
+                'specialists' => [
+                    0 => [
+                        'image' => 'egoshina',
+                        'name' => 'Егошина Людмила Васильевна',
+                        'qualification' => 'Врач эндокринолог высшей квалификационной категории'
+                    ],
+                    1 => [
+                        'image' => 'alekseev',
+                        'name' => 'Алексеев Константин Валентинович',
+                        'qualification' => 'Врач эндокринолог высшей квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'antipina',
+                        'name' => 'Антипина Татьяна Геннадьевна',
+                        'qualification' => 'Врач эндокринолог второй квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'shakirova',
+                        'name' => 'Шакирова Мария Миъайловна',
+                        'qualification' => 'Врач эндокринолог высшей квалификационной категории'
+                    ]
+                ]
+            ],
+            'clinic' => [
+                'departmentName' => 'Поликлинника',
+                'departmentDescription' => 'Наше отделение имеет 60 коек',
+                'departmentImage' => 'clinic',
+                'specialists' => [
+                    0 => [
+                        'image' => 'zavot',// TODO уточнить
+                        'name' => '',
+                        'qualification' => 'Врач '
+                    ],
+                    1 => [
+                        'image' => 'alekseev',
+                        'name' => 'Алексеев Константин Валентинович',
+                        'qualification' => 'Врач эндокринолог высшей квалификационной категории'
+                    ],
+                    2 => [
+                        'image' => 'andreeva',
+                        'name' => 'Андреева Ольга Викторовна',
+                        'qualification' => 'Врач ревматолог высшей квалификационной категории'
+                    ],
+                    3 => [
+                        'image' => 'badina',
+                        'name' => 'Бадьина Валентина Николаевна',
+                        'qualification' => 'Врач аллерголог-иммунолог'
+                    ],
+                    4 => [
+                        'image' => 'belyaeva',
+                        'name' => 'Беляева Галина Александровна',
+                        'qualification' => 'Врач кардиолог'
+                    ],
+                    5 => [
+                        'image' => 'zueva',// TODO уточнить
+                        'name' => 'Зуева ',
+                        'qualification' => 'Врач'
+                    ],
+                    6 => [
+                        'image' => 'dmitrieva', // TODO уточнить
+                        'name' => 'Дмитриева  ',
+                        'qualification' => 'Врач'
+                    ],
+                    7 => [
+                        'image' => 'kachmashev',
+                        'name' => 'Качмашев Евгений Геннадьевич',
+                        'qualification' => 'Врач хирург'
+                    ],
+                    8 => [
+                        'image' => 'myagkova',
+                        'name' => 'Мягкова Евгения Михайловна',
+                        'qualification' => 'Врач терапевт'
+                    ]
+                ]
+            ],
         ];
     }
 }
