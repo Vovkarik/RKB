@@ -73,6 +73,7 @@ the_post();
                       Контакты
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownContactMenuLink">
+                      <a class="dropdown-item" href="/contacts">Контакты</a>
                       <a class="dropdown-item" href="http://anketa.rosminzdrav.ru/staticogvjustank/54/1" target="_blank">Оценить качество услуг</a>
                       <a class="dropdown-item" href="http://mari-el.gov.ru/minzdrav/rkb/Pages/feedback.aspx" target="_blank">Оставить отзыв</a>
                     </div>
