@@ -17,7 +17,6 @@
           <div class="clearfix"></div>
           <div class="b-footer__text">РМЭ, г. Йошкар-Ола, ул. Осипенко, 33</div>
         </div>
-        <div class="col-12 col-md-7 col-lg-7 col-xl-6 offset-xl-1">
           <ul class="b-footer__menu">
             <li class="b-footer__menu__item">
               <ul class="b-footer__submenu">
