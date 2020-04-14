@@ -2,10 +2,33 @@
 
 .b-news
 {
+  .alignnone
+  {
+    &.size-full
+    {
+      float: left;
+      margin-right: 15px;
+    }
+  }
+
+  &__clear
+  {
+    clear: both;
+  }
+
   &-container
   {
     margin-top: 60px;
     margin-bottom: 80px;
+
+    .alignnone
+    {
+      &.size-full
+      {
+        float: left;
+        margin-right: 15px;
+      }
+    }
   }
 
   &__item

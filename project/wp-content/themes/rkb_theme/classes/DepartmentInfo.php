@@ -6,7 +6,7 @@ class DepartmentInfo
     {
         return [
             'traumatology' => [
-                'departmentName' => 'Травмотология',
+                'departmentName' => 'Травматология',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'traumatology',
                 'specialists' => [

@@ -28,44 +28,44 @@
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
-            <a class="b-departments__link" href="/departments"></a>
+            <a class="b-departments__link" href="/cardiology"></a>
             <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-1.png">
             <p class="b-departments__title">Кардиология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
-            <a class="b-departments__link" href="/departments"></a>
+            <a class="b-departments__link" href="/pulmonology"></a>
             <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-2.png">
             <p class="b-departments__title">Пульмонология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
-            <a class="b-departments__link" href="/departments"></a>
+            <a class="b-departments__link" href="/neurology"></a>
             <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-3.png">
             <p class="b-departments__title">Неврология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
-            <a class="b-departments__link" href="/departments"></a>
+            <a class="b-departments__link" href="/traumatology"></a>
             <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-4.png">
             <p class="b-departments__title">Травматология</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
-            <a class="b-departments__link" href="/departments"></a>
+            <a class="b-departments__link" href="/surgery"></a>
             <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-5.png">
             <p class="b-departments__title">Хирургия</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 b-departments__wrapper">
           <div class="b-departments-content">
-            <a class="b-departments__link" href="/departments"></a>
+            <a class="b-departments__link" href="/endocrinology"></a>
             <img class="img-fluid" src="/wp-content/themes/rkb_theme/images/department-6.png">
-            <p class="b-departments__title">Терапия</p>
+            <p class="b-departments__title">Эндокринология</p>
           </div>
         </div>
       </div>
@@ -78,10 +78,11 @@
     <div class="container">
       <h2 class="b-title__h2 b-news-title-margin">Новости</h2>
       <? foreach ($result as $post): ?>
-      <div class="b-news__item<? if ($postsCounter%2 !== 0): ?> b-news__item-blue<? endif;?>">
+      <div class="b-news__item<? if ($postsCounter % 2 !== 0): ?> b-news__item-blue<? endif;?>">
         <p class="b-news__date"><?= date("d.m.Y", strtotime($post["post_date"])) ?></p>
         <p class="b-news__title"><?= $post["post_title"] ?></p>
         <p class="b-news__text"><?= $post["post_content"] ?></p>
+        <div class="b-news__clear"></div>
       </div>
           <?php $postsCounter++ ?>
       <? endforeach; ?>
