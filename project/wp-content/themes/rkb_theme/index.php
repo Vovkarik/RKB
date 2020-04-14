@@ -12,11 +12,9 @@
       <div class="slider single-item">
         <div class="b-slider__img-wrap">
           <img src="/wp-content/themes/rkb_theme/images/slider4.png">
-<!--          <p class="b-slider__header">Высокий профессионализм</p>-->
         </div>
         <div class="b-slider__img-wrap">
           <img src="/wp-content/themes/rkb_theme/images/slider5.png">
-<!--          <p class="b-slider__header">Доступность и качество медицинской помощи</p>-->
         </div>
         <div class="b-slider__img-wrap">
           <img src="/wp-content/themes/rkb_theme/images/slider6.png">

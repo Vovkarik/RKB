@@ -7,7 +7,9 @@
   .b-contact__address {
     font: 16px/1.1 "Roboto Condensed", sans-serif;
     color: #333; }
+
+@media (min-width: 768px) {
   .b-contact__border_right {
-    border-right: 1px solid #eee; }
+    border-right: 1px solid #eee; } }
 
 /*# sourceMappingURL=contact.css.map */

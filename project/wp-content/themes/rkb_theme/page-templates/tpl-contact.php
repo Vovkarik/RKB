@@ -11,7 +11,7 @@
     <div class="b-main__container">
       <h1 class="b-main__h1 offset-md-1">Свяжитесь с нами</h1>
       <div class="row">
-        <div class="col-12 col-md-4 offset-md-1 b-contact__border_right">
+        <div class="col-12 col-md-5 col-lg-4 offset-lg-1 b-contact__border_right">
           <div class="b-contact">
             <div class="b-contact__header">Почтовый адрес</div>
             <div class="b-contact__address">
@@ -69,7 +69,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-5 offset-md-1">
+        <div class="col-12 col-md-5 col-lg-5 offset-md-1">
           <div class="b-contact">
             <div class="b-contact__header">Телефон приемной главного врача</div>
             <div class="b-contact__address">8 (8362) 46-07-30</div>
