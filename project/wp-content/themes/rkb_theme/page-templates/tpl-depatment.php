@@ -6,10 +6,8 @@
     the_post();
     get_header();
 
-    require_once 'DepartmentInfo.php';
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
+    require_once __DIR__ . '/../classes/DepartmentInfo.php';
+
     $departmentsInfo = DepartmentInfo::getDepartmentsInfo();
     $departmentInfo = $departmentsInfo[substr($_SERVER['REQUEST_URI'], 1, -1)];
 ?>

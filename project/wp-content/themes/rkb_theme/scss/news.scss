@@ -24,8 +24,10 @@
     }
   }
 
-  &__text
+  &__date
   {
-
+    font: 14px/20px $openSans;
+    color: $dark_color;
+    margin-bottom: 10px;
   }
 }

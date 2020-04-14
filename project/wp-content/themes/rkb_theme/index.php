@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+    get_header();
+
+    require_once __DIR__ . '/classes/Utils.php';
+
+    $result = Utils::getLastPosts();
+    $postsCounter = 1;
+?>
 <main>
   <div class="b-slider">
     <div class="container">
@@ -72,21 +79,14 @@
   <div class="b-news">
     <div class="container">
       <h2 class="b-title__h2 b-news-title-margin">Новости</h2>
-      <div class="b-news__item b-news__item-blue">
-        <p class="b-news__title">10 октября 2020</p>
-        <p class="b-news__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
-          Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах,</p>
+      <? foreach ($result as $post): ?>
+      <div class="b-news__item<? if ($postsCounter%2 !== 0): ?> b-news__item-blue<? endif;?>">
+        <p class="b-news__date"><?= date("d.m.Y", strtotime($post["post_date"])) ?></p>
+        <p class="b-news__title"><?= $post["post_title"] ?></p>
+        <p class="b-news__text"><?= $post["post_content"] ?></p>
       </div>
-      <div class="b-news__item">
-        <p class="b-news__title">10 октября 2020</p>
-        <p class="b-news__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
-          Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах,</p>
-      </div>
-      <div class="b-news__item b-news__item-blue">
-        <p class="b-news__title">10 октября 2020</p>
-        <p class="b-news__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
-          Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах,</p>
-      </div>
+          <?php $postsCounter++ ?>
+      <? endforeach; ?>
       <div class="b-button__wrapper">
         <a class="b-button b-button-yellow" href="/news">Все новости</a>
       </div>

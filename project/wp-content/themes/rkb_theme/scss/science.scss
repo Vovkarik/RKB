@@ -1,0 +1,44 @@
+@import "config";
+
+.b-science
+{
+  &__table
+  {
+    width: 100%;
+    color: $dark_color;
+    border-spacing: 1px;
+    max-width: 721px;
+
+    &-wrapper
+    {
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__cell
+  {
+    padding: 5px;
+    border: 1px solid black;
+    min-width: 111px;
+    font: 15px $openSans;
+    color: $dark_color;
+  }
+}
+
+.b-underline
+{
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 500px)
+{
+  .b-science
+  {
+    &__table
+    {
+      overflow-x: hidden;
+    }
+  }
+}
+

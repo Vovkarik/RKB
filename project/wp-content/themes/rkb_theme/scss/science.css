@@ -1,0 +1,23 @@
+.b-science__table {
+  width: 100%;
+  color: #333;
+  border-spacing: 1px;
+  max-width: 721px; }
+  .b-science__table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 20px; }
+.b-science__cell {
+  padding: 5px;
+  border: 1px solid black;
+  min-width: 111px;
+  font: 15px "Open Sans", sans-serif;
+  color: #333; }
+
+.b-underline {
+  text-decoration: underline; }
+
+@media screen and (min-width: 500px) {
+  .b-science__table {
+    overflow-x: hidden; } }
+
+/*# sourceMappingURL=science.css.map */

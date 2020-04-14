@@ -5,5 +5,9 @@
   background-color: rgba(0, 153, 255, 0.2); }
 .b-news__title-margin {
   margin-bottom: 40px; }
+.b-news__date {
+  font: 14px/20px "Open Sans", sans-serif;
+  color: #333;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=news.css.map */

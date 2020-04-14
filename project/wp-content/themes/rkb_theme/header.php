@@ -54,7 +54,7 @@ the_post();
                       <a class="dropdown-item" href="/executives">Руководители</a>
                       <a class="dropdown-item" href="http://mari-el.gov.ru/minzdrav/rkb/Pages/license.aspx" target="_blank">Лицензии</a>
                       <a class="dropdown-item" href="http://mari-el.gov.ru/minzdrav/rkb/Pages/rcb-docs.aspx">Документы</a>
-                      <a class="dropdown-item" href="#">Научная деятельность</a>
+                      <a class="dropdown-item" href="/science">Научная деятельность</a>
                       <a class="dropdown-item" href="/history">История</a>
                     </div>
                   </li>

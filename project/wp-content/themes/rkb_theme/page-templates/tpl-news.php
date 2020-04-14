@@ -24,6 +24,7 @@
         <?php while(have_posts()): the_post(); ?>
             <div class="b-news__item<? if ($counter%2 !== 0): ?> b-news__item-blue<? endif;?>">
                 <h3 class="b-news__title"><?php the_title() ?></h3>
+                <p class="b-news__title"><?php the_date() ?></p>
                 <p class="b-news__text"><?php the_content() ?></p>
             </div>
             <?php $counter++ ?>
