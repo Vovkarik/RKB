@@ -61,7 +61,7 @@ the_post();
                     <a href="/departments">Отделения</a>
                   </li>
                   <li class="nav-item b-header__item">
-                    <a href="http://localhost/wp-content/uploads/2020/03/Прейскуран.xls">Платные услуги</a>
+                    <a href="/price">Платные услуги</a>
                   </li>
                   <li class="nav-item b-header__item">
                     <a href="/news">Новости</a>

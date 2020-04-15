@@ -4,4 +4,4 @@
      */
 
     the_post();
-    header('Location: ' . the_field('price'));
+    header('Location: ' . get_field('price'));
