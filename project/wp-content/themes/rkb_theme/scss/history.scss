@@ -121,6 +121,13 @@
 
 .b-department
 {
+  &-wrap
+  {
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
   &-margin
   {
     margin-top: 20px;
@@ -135,12 +142,13 @@
   &__list
   {
     list-style: none;
-    margin-left: 19px;
   }
 
   &__item
   {
     margin-bottom: 10px;
+    position: relative;
+    padding-left: 18px;
 
     a
     {
@@ -157,15 +165,16 @@
 
     &::before
     {
+      position: absolute;
       content: "";
       background-color: $blue_color;
       font-weight: bold;
       display: inline-block;
       width: 7px;
       height: 7px;
-      margin-left: -1em;
       border-radius: 50%;
-      margin-right: 15px;
+      left: 0;
+      top: 10px;
     }
 
     &_special
@@ -175,6 +184,18 @@
         color: $blue_color_title;
         font: 20px $openSans;
       }
+    }
+  }
+}
+
+@media (min-width: 575px)
+{
+  .b-department
+  {
+    &-wrap
+    {
+      max-width: none;
+      margin: 0;
     }
   }
 }
