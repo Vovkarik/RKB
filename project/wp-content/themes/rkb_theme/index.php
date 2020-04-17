@@ -11,13 +11,13 @@
     <div class="container">
       <div class="slider single-item">
         <div class="b-slider__img-wrap">
-          <img src="/wp-content/themes/rkb_theme/images/slider4.png">
+          <img src="/wp-content/themes/rkb_theme/images/slider/slider_1.png">
         </div>
         <div class="b-slider__img-wrap">
-          <img src="/wp-content/themes/rkb_theme/images/slider5.png">
+          <img src="/wp-content/themes/rkb_theme/images/slider/slider_2.png">
         </div>
         <div class="b-slider__img-wrap">
-          <img src="/wp-content/themes/rkb_theme/images/slider6.png">
+          <img src="/wp-content/themes/rkb_theme/images/slider/slider_3.png">
         </div>
       </div>
     </div>
