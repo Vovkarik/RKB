@@ -6,7 +6,7 @@ class DepartmentInfo
     {
         return [
             'traumatology' => [
-                'departmentName' => 'Травматология',
+                'departmentName' => 'Травматолого-ортопедическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'traumatology',
                 'specialists' => [
@@ -43,7 +43,7 @@ class DepartmentInfo
                 ]
             ],
             'gynecology' => [
-                'departmentName' => 'Гинекология',
+                'departmentName' => 'Гинекологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'gynecology',
                 'specialists' => [
@@ -65,7 +65,7 @@ class DepartmentInfo
                 ]
             ],
             'purulent-surgery' => [
-                'departmentName' => 'Гнойная хирургия',
+                'departmentName' => 'Отделение гнойной хирургии и проктологии',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'purulent_surgery',
                 'specialists' => [
@@ -109,7 +109,7 @@ class DepartmentInfo
                 ]
             ],
             'neurosurgery' => [
-                'departmentName' => 'Нейрохирургия',
+                'departmentName' => 'Нейрохирургическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'neurosurgery',
                 'specialists' => [
@@ -264,7 +264,7 @@ class DepartmentInfo
                 ]
             ],
             'urology' => [
-                'departmentName' => 'Урология',
+                'departmentName' => 'Урологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'urology',
                 'specialists' => [
@@ -296,7 +296,7 @@ class DepartmentInfo
                 ]
             ],
             'surgery' => [
-                'departmentName' => 'Хирургия',
+                'departmentName' => 'Хирургическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'surgery',
                 'specialists' => [
@@ -328,7 +328,7 @@ class DepartmentInfo
                 ]
             ],
             'maxillofacial-surgery' => [
-                'departmentName' => 'Челюстно-лицевая хирургия',
+                'departmentName' => 'Отделение челюстно-лицевой хирургии',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'maxillofacial_surgery',
                 'specialists' => [
@@ -470,7 +470,7 @@ class DepartmentInfo
                 ]
             ],
             'functional-diagnostics' => [
-                'departmentName' => 'Функциональная диагностика',
+                'departmentName' => 'Отделение функциональной диагностики',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'functional_diagnostics',
                 'specialists' => [
@@ -497,7 +497,7 @@ class DepartmentInfo
                 ]
             ],
             'endoscopy' => [
-                'departmentName' => 'Эндоскопия',
+                'departmentName' => 'Эндоскопическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'endoscopy',
                 'specialists' => [
@@ -519,7 +519,7 @@ class DepartmentInfo
                 ]
             ],
             'gastroenterology' => [
-                'departmentName' => 'Гастроэнтерология',
+                'departmentName' => 'Гастроэнтерологическое  отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'gastroenterology',
                 'specialists' => [
@@ -536,7 +536,7 @@ class DepartmentInfo
                 ]
             ],
             'hemodialysis' => [
-                'departmentName' => 'Гемодиализ',
+                'departmentName' => 'Отделение гемодиализа',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'hemodialysis',
                 'specialists' => [
@@ -553,7 +553,7 @@ class DepartmentInfo
                 ]
             ],
             'cardiology' => [
-                'departmentName' => 'Кардиология',
+                'departmentName' => 'Кардиологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'cardiology',
                 'specialists' => [
@@ -580,7 +580,7 @@ class DepartmentInfo
                 ]
             ],
             'neurology' => [
-                'departmentName' => 'Неврология',
+                'departmentName' => 'Неврологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'neurology',
                 'specialists' => [
@@ -597,7 +597,7 @@ class DepartmentInfo
                 ]
             ],
             'nephrology' => [
-                'departmentName' => 'Нефрология',
+                'departmentName' => 'Нефрологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'nephrology',
                 'specialists' => [
@@ -626,7 +626,7 @@ class DepartmentInfo
                 ]
             ],
             'pulmonology' => [
-                'departmentName' => 'Пульмонология',
+                'departmentName' => 'Пульмонологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'pulmonology',
                 'specialists' => [
@@ -653,7 +653,7 @@ class DepartmentInfo
                 ]
             ],
             'rheumatology' => [
-                'departmentName' => 'Ревматология',
+                'departmentName' => 'Ревматологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'rheumatology',
                 'specialists' => [
@@ -675,7 +675,7 @@ class DepartmentInfo
                 ]
             ],
             'endocrinology' => [
-                'departmentName' => 'Эндокринология',
+                'departmentName' => 'Эндокринологическое отделение',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'endocrinology',
                 'specialists' => [
@@ -702,14 +702,14 @@ class DepartmentInfo
                 ]
             ],
             'clinic' => [
-                'departmentName' => 'Поликлинника',
+                'departmentName' => 'Республиканская консультативная поликлиника',
                 'departmentDescription' => 'Наше отделение имеет 60 коек',
                 'departmentImage' => 'clinic',
                 'specialists' => [
                     0 => [
-                        'image' => 'zavot',// TODO уточнить
-                        'name' => '',
-                        'qualification' => 'Врач '
+                        'image' => 'zavot',
+                        'name' => 'Еникеева Татьяна Евгеньевна',
+                        'qualification' => 'Врач терапевт высшей квалификационной категории'
                     ],
                     1 => [
                         'image' => 'alekseev',
@@ -732,21 +732,11 @@ class DepartmentInfo
                         'qualification' => 'Врач кардиолог'
                     ],
                     5 => [
-                        'image' => 'zueva',// TODO уточнить
-                        'name' => 'Зуева ',
-                        'qualification' => 'Врач'
-                    ],
-                    6 => [
-                        'image' => 'dmitrieva', // TODO уточнить
-                        'name' => 'Дмитриева  ',
-                        'qualification' => 'Врач'
-                    ],
-                    7 => [
                         'image' => 'kachmashev',
                         'name' => 'Качмашев Евгений Геннадьевич',
                         'qualification' => 'Врач хирург'
                     ],
-                    8 => [
+                    6 => [
                         'image' => 'myagkova',
                         'name' => 'Мягкова Евгения Михайловна',
                         'qualification' => 'Врач терапевт'
